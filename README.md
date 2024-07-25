@@ -1,3 +1,5 @@
+The implementation of API wrapper classes mainly includes two classes: XData class and XMysql class. The XData class is mainly used to describe the information of a field in a database, including the type, content, and size of the field; The XMysql class truly implements operations on MySQL databases, including connecting to databases, automatic reconnection, executing SQL statements (add, delete, modify, and query), supporting transaction operations, and supporting stored procedures, as follows:
+
 | 操作                          | 功能                                   | 对象    |
 |------------------------------|----------------------------------------|--------|
 | XData()                      | 默认构造函数，使用成员初始值              | XData  |
