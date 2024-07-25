@@ -1,3 +1,13 @@
+| 操作                          | 功能                                   | 对象    |
+|------------------------------|----------------------------------------|--------|
+| XData()                      | 默认构造函数，使用成员初始值              | XData  |
+| XData(const char* s)         | 使用字符串构造成员内容                   | XData  |
+| XData(const int* d)          | 使用整型构造成员内容                     | XData  |
+| LoadFile(const char* filename) | 读取载体中的二进制文件内容构造成员内容     | XData  |
+| SaveFile(const char* filename) | 将变量中的二进制内容写入载体              | XData  |
+| Drop()                       | 释放LoadFile申请的空间                   | XData  |
+
+
 
 
 | 接口                    | 描述                           | 所属类  |
